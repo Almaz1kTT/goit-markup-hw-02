@@ -1,3 +1,4 @@
+/*цвета*/
 :root {
     --iris: #4d5ae5;
     --ocean: #404bbf;
@@ -18,7 +19,7 @@ a {
 /*MAIN*/
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--white:);
+  color: var(--white);
 }
 
 /*LOGO*/
