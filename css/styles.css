@@ -13,15 +13,17 @@
     --white: #fff;
     --dairy: #fcfcfc;
 }
-a {
-    text-decoration: none;
-}
 /*MAIN*/
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--white);
+  color: #434455;
 }
-
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
 /*LOGO*/
 .logo {
     font-family: "Raleway", sans-serif;
@@ -47,12 +49,15 @@ body {
 .nav-link:focus {
     color: var(--ocean);
 }
+.address {
+    font-style: normal;
+}
 .address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #434455;
 }
 .address-link:hover,
 .address-link:focus {
@@ -78,7 +83,8 @@ body {
 }
 .button:hover,
 .button:focus {
-    color: var(--iris);
+    background-color: var(--ocean);
+    color: var(--white);
 }
 .section-main {
     background-color: var(--navy-blue);
